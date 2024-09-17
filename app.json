@@ -1,39 +1,35 @@
 {
   "ads": false,
   "free": true,
-  "name": "Nebula",
+  "name": "Viewly",
   "theme": "",
-  "contact": "support@nebula.app",
+  "contact": "lixunemial@gmail.com",
   "stores": {
-    "apple": "https://apps.apple.com/us/app/nebula/id1234567890",
-    "google": "https://play.google.com/store/apps/details?id=com.nebula.app"
+    "apple": "https://apps.apple.com/us/app/nebula/id1234567890"
   },
   "description": [
-    "is a powerful and user-friendly navigation app.",
-    "You can easily plan and track your travels through space, whether you're a seasoned astronaut or a space exploration enthusiast.",
-    "With real-time updates and detailed maps, helps you stay on course and reach your destination with ease."
+    "一款强大的 AI 图片识别应用，他可以识别图片中的内容、AI 作诗、拍照翻译成多国语言"
   ],
   "features": [
     {
-      "title": "Space Travel",
-      "body": "Plan and track your space travels using detailed maps and real-time updates."
+      "title": "AI 图片识别",
+      "body": "识别图片中的内容、AI 作诗、翻译成多国语言"
     },
     {
-      "title": "Destination Tracker",
-      "body": "View your current location and track your progress towards your destination."
+      "title": "AI 作诗",
+      "body": "根据图片内容，AI 作诗"
     },
     {
-      "title": "Journey Alerts",
-      "body": "Set alerts for important events or landmarks along your journey."
+      "title": "翻译",
+      "body": "翻译成多国语言"
     },
     {
-      "title": "Map Customization",
-      "body": "Customize your map display with different themes and overlays."
+      "title": "更多内容",
+      "body": "持续不断的更新更多功能..."
     }
   ],
   "social": {
-    "twitter": "https://twitter.com/nebula",
-    "youtube": "https://www.youtube.com/nebula",
-    "discord": "https://discord.gg/nebula"
+    "X": "https://x.com/ios_1261142602",
+    "微博": "https://weibo.com/u/5292539555"
   }
 }

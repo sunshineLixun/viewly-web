@@ -9,11 +9,6 @@ const Items = [
     href: App.stores.apple,
   },
   {
-    href: "/icon.png",
-    tagline: "Press Kit",
-    download: true,
-  },
-  {
     tagline: "Privacy Policy",
     href: "/privacy",
   },
@@ -27,10 +22,7 @@ const Style = "dark:text-white capitalize";
 ---
 
 <footer
-  class:list={[
-    THEME.footer,
-    "bg-white p-5 dark:text-white transition-all duration-75 ease-out",
-  ]}
+  class:list={["p-5 dark:text-white transition-all duration-75 ease-out"]}
 >
   <div
     class="flex items-center justify-between md:flex-row flex-col md:order-2 order-1 gap-3 m-auto h-full max-w-6xl"
@@ -40,12 +32,7 @@ const Style = "dark:text-white capitalize";
     <div class="flex gap-x-5 text-sm">
       {
         Items.map((item, index) => (
-          <a
-            class={Style}
-            target="_blank"
-            href={item.href}
-            download={item.download || false}
-          >
+          <a class={Style} target="_blank" href={item.href}>
             {item.tagline}
           </a>
         ))
