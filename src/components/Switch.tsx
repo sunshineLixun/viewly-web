@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { ICON } from "../lib/theme";
 
 const Switch = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -22,7 +21,6 @@ const Switch = () => {
         type="button"
         aria-label="Switch to light mode"
         onClick={() => setDarkMode(false)}
-        style={{ color: !darkMode ? ICON : "lightgray" }}
       >
         <svg
           className="h-6 w-6"
@@ -42,7 +40,6 @@ const Switch = () => {
         type="button"
         aria-label="Switch to dark mode"
         onClick={() => setDarkMode(true)}
-        style={{ color: darkMode ? ICON : "lightgray" }}
       >
         <svg
           className="h-6 w-6"

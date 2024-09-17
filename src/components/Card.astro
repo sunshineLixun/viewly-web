@@ -2,8 +2,6 @@
 // Insert your favorite icons from https://heroicons.dev
 // or use your own SVGs
 
-import { THEME } from "../lib/theme";
-
 export interface Props {
   body: string;
   title: string;
@@ -17,10 +15,7 @@ const { title, body } = Astro.props;
 >
   <div class="flex gap-x-3 items-center">
     <span
-      class:list={[
-        THEME.card,
-        "flex items-center justify-center rounded-xl w-12 h-12",
-      ]}
+      class:list={["flex items-center justify-center rounded-xl w-12 h-12"]}
     >
       <svg
         class="w-6 h-6"
@@ -33,7 +28,7 @@ const { title, body } = Astro.props;
           clip-rule="evenodd"></path>
       </svg>
     </span>
-    <h2 class:list={[THEME.accent, "text-2xl font-black capitalize"]}>
+    <h2 class:list={["text-2xl font-black capitalize"]}>
       {title}
     </h2>
   </div>

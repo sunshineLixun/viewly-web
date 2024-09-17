@@ -4,16 +4,15 @@ import "@fontsource/inter/700.css";
 
 import App from "../../app.json";
 import Footer from "../components/Footer.astro";
-import { THEME } from "../lib/theme";
 
 export interface Props {
   title: string;
 }
 
-const { title } = Astro.props.frontmatter || Astro.props;
+const { title } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
