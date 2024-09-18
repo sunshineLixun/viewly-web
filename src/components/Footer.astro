@@ -1,6 +1,5 @@
 ---
 import App from "../../app.json";
-import Switch from "./Switch";
 
 const Items = [
   {
@@ -34,7 +33,7 @@ const Style = "dark:text-white capitalize";
 
     <div class="flex gap-x-5 text-sm">
       {
-        Items.map((item, index) => (
+        Items.map((item) => (
           <a class={Style} target="_blank" href={item.href}>
             {item.tagline}
           </a>

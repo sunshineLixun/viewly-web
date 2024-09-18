@@ -1,6 +1,6 @@
 {
   "files.associations": {
-    "*.mdx": "markdown"
+    "*.mdx": "astro"
   },
   "yaml.schemas": {
     "https://json.schemastore.org/github-action.json": "file:///Users/zavbala/Desktop/nebula/.github/workflows/deploy.yaml"
