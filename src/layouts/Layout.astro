@@ -1,31 +1,39 @@
 ---
+// Import font styles
 import "@fontsource/inter/400.css";
 import "@fontsource/inter/700.css";
 
+// Import components and data
 import App from "../../app.json";
 import Footer from "../components/Footer.astro";
 
+// Define props interface
 export interface Props {
   title: string;
 }
 
+// Get title from props
 const { title } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
+    {/* Basic meta tags */}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
 
+    {/* Favicon */}
     <link
       rel="shortcut icon"
       href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" 
       viewBox="0 0 100 100"><text y=".9em" font-size="90">🧑‍🚀</text></svg>'
     />
 
+    {/* Astro generator meta */}
     <meta name="generator" content={Astro.generator} />
 
+    {/* SEO meta tags */}
     <title>{App.name} · {title}</title>
     <meta name="description" content="An Astro template for your iOS apps." />
   </head>
